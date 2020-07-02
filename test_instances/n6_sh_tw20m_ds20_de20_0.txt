@@ -1,0 +1,269 @@
+
+Instance Name: n6_sh_tw20m_ds20_de20_0
+nNurses : 6
+nJobs : 59
+nSkills : 10
+Staff : 
+
+	 - Band 0 - 
+	Nurse 0)
+		Skills: [0. 2. 0. 4. 0. 0. 0. 0. 0. 0.]
+		Working times: [  0. 240. 240.]
+	Nurse 1)
+		Skills: [0. 2. 0. 4. 0. 0. 0. 0. 9. 0.]
+		Working times: [  0. 480. 480.]
+	 - Band 1 - 
+	Nurse 2)
+		Skills: [1. 0. 0. 4. 0. 0. 0. 0. 0. 0.]
+		Working times: [  0. 240. 240.]
+	Nurse 3)
+		Skills: [1. 0. 3. 4. 0. 0. 7. 0. 0. 0.]
+		Working times: [  0. 480. 480.]
+	 - Band 2 - 
+	Nurse 4)
+		Skills: [1. 2. 3. 0. 5. 6. 7. 0. 9. 0.]
+		Working times: [  0. 240. 240.]
+	Nurse 5)
+		Skills: [1. 2. 3. 4. 5. 0. 7. 0. 9. 0.]
+		Working times: [  0. 480. 480.]
+nTimeWindows : 11.0
+nDoubleServices : 11.0
+nDependencies : 11.0
+SingleOrMultipleDepots : Single
+Jobs :
+	Job 0
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 1, double service
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 6 7 0 0 0]
+	Job 2
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 3, depends on 42 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [ 0. 60.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 4
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 5, depends on 56 (gap 0.0 - 0.0)
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 6, double service
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 2 0 0 5 0 0 0 0 0]
+	Job 7
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 8, double service
+		Duration: 30.0
+		Time Window: [  0. 120.]
+		Skills: [0 0 0 0 5 0 7 0 0 0]
+	Job 9
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 0 0 9 0]
+	Job 10, depends on 47 (gap 0.0 - 0.0)
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 11
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 12
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 2 0 4 0 0 0 0 0 0]
+	Job 13
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 14
+		Duration: 20.0
+		Time Window: [ 60. 240.]
+		Skills: [0 0 0 4 0 0 0 0 0 0]
+	Job 15
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 0 0 0 0]
+	Job 16, double service, depends on 44 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 5 0 0 0 0 0]
+	Job 17, double service
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 5 0 7 0 0 0]
+	Job 18
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 0 0 9 0]
+	Job 19, double service
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 2 0 0 0 6 0 0 0 0]
+	Job 20, double service
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 7 0 0 0]
+	Job 21, depends on 45 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 5 0 0 0 0 0]
+	Job 22, double service
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 2 0 0 0 6 0 0 0 0]
+	Job 23, double service
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 6 0 0 0 0]
+	Job 24, double service
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 5 6 0 0 0 0]
+	Job 25
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 26
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 27
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 28, double service
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 0 0 0 9 0]
+	Job 29
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 6 0 0 9 0]
+	Job 30
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 5 0 0 0 0 0]
+	Job 31, depends on 50 (gap 0.0 - 0.0)
+		Duration: 10.0
+		Time Window: [540. 660.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 32
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 0 0 9 0]
+	Job 33
+		Duration: 20.0
+		Time Window: [ 0. 60.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 34
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 35
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 7 0 0 0]
+	Job 36, depends on 41 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [ 0. 60.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 37
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 38, depends on 52 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 0 0 0 0]
+	Job 39
+		Duration: 10.0
+		Time Window: [540. 600.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 40
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 6 0 0 0 0]
+	Job 41, depends on 36 (gap 0.0 - 0.0)
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 0 0 9 0]
+	Job 42, depends on 3 (gap 360.0 - 420.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 5 0 0 0 0 0]
+	Job 43
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 0 0 0 0]
+	Job 44, depends on 16 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [  0. 120.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
+	Job 45, depends on 21 (gap 120.0 - 300.0)
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 0 0 0 0 0 9 0]
+	Job 46
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 2 0 0 0 0 0 0 0 0]
+	Job 47, depends on 10 (gap 0.0 - 0.0)
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 48
+		Duration: 30.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 0 7 0 0 0]
+	Job 49, depends on 54 (gap 0.0 - 0.0)
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 3 0 0 0 0 0 0 0]
+	Job 50, depends on 31 (gap -180.0 - -120.0)
+		Duration: 10.0
+		Time Window: [ 60. 180.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 51, depends on 57 (gap -360.0 - -240.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [1 0 0 4 0 0 0 0 0 0]
+	Job 52, depends on 38 (gap -360.0 - -240.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 4 0 0 0 0 0 0]
+	Job 53
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 5 0 0 0 0 0]
+	Job 54, depends on 49 (gap 0.0 - 0.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 5 0 0 0 0 0]
+	Job 55, depends on 58 (gap 120.0 - 180.0)
+		Duration: 30.0
+		Time Window: [540. 720.]
+		Skills: [0 0 0 4 0 0 7 0 9 0]
+	Job 56, depends on 5 (gap -180.0 - -120.0)
+		Duration: 10.0
+		Time Window: [  0. 180.]
+		Skills: [1 0 0 0 0 0 0 0 0 0]
+	Job 57, depends on 51 (gap 240.0 - 360.0)
+		Duration: 10.0
+		Time Window: [  0. 720.]
+		Skills: [1 2 0 0 0 0 0 0 0 0]
+	Job 58, depends on 55 (gap 240.0 - 360.0)
+		Duration: 20.0
+		Time Window: [  0. 720.]
+		Skills: [0 0 0 0 0 6 0 0 0 0]
